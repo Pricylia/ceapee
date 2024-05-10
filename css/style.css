@@ -32,6 +32,21 @@ p{
     padding: 0 5%;
 }
 
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+
+.btn:hover{
+    background-color: yellow;
+}
+
+
 header{
     background-position: center;
     background-size: cover;
@@ -48,6 +63,7 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 
 nav a img{
@@ -60,4 +76,77 @@ nav ul a{
     text-transform: uppercase;
     font-size: 14px;
     display: block;
+    padding: 8px 25px;
 }
+
+nav ul a:not(.btn)::after{
+    content: "";
+    background-color: red;
+    height: 5px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;   
+}
+
+.banner .banner-text{
+    margin: 50px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color: white;
+}
+
+.banner.bannr-text p{
+    font-size: 20px;
+    color: bisque;
+    font-weight: lighter;
+    margin: 18px 0;
+}
+
+/* BENEFICIOS */
+.titulo{
+    text-align: center;
+    margin-top: 30px; /* Adiciona margem no topo */
+    margin-bottom: 50px; /* Adiciona margem na parte inferior */
+}
+
+.beneficio .container{
+    display: flex;
+    align-items: center;
+}
+
+.beneficio .beneficio-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.beneficio .beneficio-text h1{
+    font-size: 40px;
+}
+
+.beneficio .beneficio-text p{
+    margin: 5px 0 10px 0;
+}
+
+.beneficio .beneficio-img{
+    width: 50%;
+}
+
+.beneficio .beneficio-img img{
+    width: 50%;
+}
+
+/* DEPOIMENTOS */
