@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #113793;
+    background-color: white;
 }
 
 section,
@@ -196,11 +196,13 @@ section.produtos .flex{
 /* Casos de Sucesso */
 .depoimentos h3{
     text-align: center;
+    color: #FACB03;
 }
 
 .depoimentos p{
     margin-bottom: 20px;
     text-align: center;
+    color: #FACB03;
 }
 
 .cards{
@@ -209,7 +211,7 @@ section.produtos .flex{
 }
 
 .depoimentos .card-item{
-    background-color: #113793;
+    background-color: #FACB03;
     margin: 15px;
     border-radius: 14px;
     text-align: center;
@@ -218,7 +220,7 @@ section.produtos .flex{
 }
 
 .depoimentos .card-item .nome-user{
-    color: #FACB03;
+    color: #113793;
     margin-top: 20px;
     font-weight: 600;
     font-size: 18px;
@@ -227,7 +229,7 @@ section.produtos .flex{
 }
 
 .depoimentos .card-item .agente{
-    color: #FACB03;
+    color: #113793;
     margin-top: 20px;
     font-weight: 600;
     font-size: 15px;
@@ -236,7 +238,7 @@ section.produtos .flex{
 }
 
 .depoimentos .card-item .depoimento-user{
-    color: #FACB03;
+    color: #113793;
     font-size: 13px;
     padding: 0 15px;
     transition: 0.3s;
@@ -248,7 +250,7 @@ section.produtos .flex{
 }
 
 .depoimentos .card-item .estrelas i{
-    color: #FACB03;
+    color: #113793;
     margin-top: 15px;
     font-size: 20px;
     transition: 0.3s;
